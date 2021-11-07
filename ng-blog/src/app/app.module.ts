@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BlogModule } from './blog/BlogModule';
+import { RedditSearchComponent } from './reddit-search/reddit-search.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RedditSearchComponent
   ],
   imports: [
     BrowserModule,

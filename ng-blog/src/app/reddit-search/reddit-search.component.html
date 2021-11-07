@@ -1,0 +1,8 @@
+<p>reddit-search works!</p>
+<div>
+    <label>Search reddit.com/r/aww for Images containing:</label>
+    <input (keyup)="doSearch($event.target.value)"/>
+</div>
+<div class="box" *ngFor="let post of resutls">
+    <img src="post.thumbnail" alt="post.title">
+</div>

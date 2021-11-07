@@ -218,7 +218,6 @@ class CatService {
 }
 ```
 Một số điểm đáng chú ý:
-
 * CatService khởi tạo và inject instance CatRepository vào CatBusinessLogic thông qua Factory.
 * CatBusinessLogic không cần phải khởi tạo instance của CatRepository qua Factory nữa.
 

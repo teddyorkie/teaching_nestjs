@@ -17,13 +17,14 @@ Dễ dàng tích hợp với các framework khác như Express và Fastify.
 Đây là những thứ mình cực kỳ thích ở NestJS. Thứ bạn cần quan tâm là business logic và code sao cho đúng chuẩn, còn Infrastructure đã có người khác lo.
 
 ### Bắt đầu
-`nest new gaubi_portfolio` sẽ tạo ra cây thư mục với
+`nest new api` sẽ tạo ra cây thư mục với
 * src: thư mục gốc của dự án.
 * test: nơi chứa các file test e2e.
 * nest-cli.json: cấu hình Nest CLI.
 * tsconfig.json: cấu hình Typescript transpiler.
+* install và import vào app.module.ts 2 modules @nestjs/config (để dùng file .env config) và /typeorm (for postgres)
 
-then `npm run start`
+then `npm run start:dev`
 
 ## RestAPI
 
